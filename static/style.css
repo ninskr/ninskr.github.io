@@ -1,0 +1,36 @@
+body {
+    height: 100%;
+    margin: 0px;
+    background-color: #41B3A3;
+}
+
+.navcontainer { /* Contrasting navigation bar */
+    margin:0%; 
+    width: 100%;
+    height:50px;
+    position: relative;
+    background-color: #85dcb8;
+}
+
+.linkcontainer {
+    display: block;
+    text-align: center;
+    padding-top: 1px;
+}
+
+.Banner {
+    color: whitesmoke;
+    text-align: center;
+    padding: 70px;
+    background-image: url(../images/Big_Sur_Banner.jpeg);
+    background-size:cover;
+    height: 300px;
+}
+
+nav a:link {
+    color: #e27d60;
+}
+
+nav a:hover {
+    color: #e8a87c
+}
